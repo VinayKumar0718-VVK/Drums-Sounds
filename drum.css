@@ -1,0 +1,55 @@
+*{
+   background-color:rgb(190, 177, 177);
+}
+.drum{
+height:150px;
+width: 150px;
+border-radius: 4px;
+background-size:contain;
+background-position: center;
+ }
+ .drums{
+    margin: 150px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    gap:20px;
+ }
+ h1{
+   margin-top: 50px;
+ }
+ .W,A,S,D,J,K,L{
+    background-image: url("images/music.jpg"); 
+ }
+ .A{
+    background-image: url("images/music.jpg");
+ }
+
+  .S{
+    background-image: url("images/music.jpg");
+ }
+ .D{
+    background-image: url("images/music.jpg");
+ }
+ .J{
+    background-image: url("images/music.jpg");
+ }
+ .K{
+    background-image: url("images/music.jpg");
+ }
+ .L{
+    background-image: url("images/music.jpg");
+ }
+ 
+.pressed {
+  color: red;
+  transform: scale(0.9);
+}
+.footer{
+   position: absolute;
+   bottom: 20px;
+   left: 48%;
+   font-size: 20px;
+   color:#dce92b;
+   text-shadow: 0 0 5px #ff4d6d,0 0 10px #ff1e56, 0 0 20px #ff1e56;
+}
